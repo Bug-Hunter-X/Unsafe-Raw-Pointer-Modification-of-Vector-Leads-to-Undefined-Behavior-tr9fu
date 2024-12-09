@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust involving unsafe code and vectors.  Modifying a vector through a raw pointer after vector operations can cause undefined behavior due to potential memory reallocation. The solution showcases a safer approach using vector indexing.
